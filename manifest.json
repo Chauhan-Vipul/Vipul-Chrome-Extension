@@ -1,0 +1,26 @@
+{
+    "name": "Vipul;s Extension",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Tells About the ongoing coding challenges",
+
+
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+
+    "icons": {
+        "128": "logo.png"
+    },
+
+    "permission": ["activeTab"],
+
+    "background": {
+        "scripts": ["script.js"],
+        "persistent": true
+      }
+    
+
+  
+}
